@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>confirmar</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script  src="angular/angular.min.js"></script>
+	<script type="text/javascript" src="angular/angular-resource.js"></script>
+	<script type="text/javascript" src="js/practical13.js"></script>
+</head>
+<body ng-app="aps">
+<div ng-controller="contr" class="modal-header">		
+
+cedula:<input type="text" id="ced" name="ced" ng-model="ced">
+<input type="submit" value="matricularse" ng-click="verificar(ced)">
+
+</body>
